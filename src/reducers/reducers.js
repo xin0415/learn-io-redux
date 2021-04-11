@@ -3,7 +3,7 @@ import {
 	REQUEST_PLATFORMS_PENDING,
 	REQUEST_PLATFORMS_SUCCESS,
 	REQUEST_PLATFORMS_FAILED
-}from './constants.js'
+}from '../actions/actions.js'
 
 const initialStateSearch={
 	searchField:''

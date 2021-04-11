@@ -4,7 +4,7 @@ import PlatformList from '../components/PlatformList';
 import SearchBox from '../components/SearchBox';
 // import {platforms} from '../platforms';
 import './App.css'
-import {setSearchField,requestPlatforms} from '../actions'
+import {setSearchField,requestPlatforms} from '../actions/actions'
 
 const mapStateToProps=(state)=>{
 	return {

@@ -7,7 +7,7 @@ import {createStore,applyMiddleware,combineReducers} from 'redux';
 import thunkMiddleware from 'redux-thunk';
 import reportWebVitals from './reportWebVitals';
 import App from './containers/App';
-import{searchPlatforms,requestPlatforms} from './reducers';
+import{searchPlatforms,requestPlatforms} from './reducers/reducers';
 
 const logger=createLogger();
 const rootReducer=combineReducers({searchPlatforms,requestPlatforms});
